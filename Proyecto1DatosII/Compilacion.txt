@@ -1,0 +1,5 @@
+Compilacion del proyecto
+
+g++ main.cpp server/Server.cpp list/ListHandler.cpp container/InfoContainer.cpp encryption/encryption.cpp -std=c++0x -lpthread -o main
+
+g++ main.cpp rmref_h/rmRef_H.cpp rmlib.cpp encryption/encryption.cpp -std=c++0x -o main
